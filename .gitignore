@@ -6,6 +6,19 @@ node_modules/
 .next/
 out/
 
+# Build output
+
+cat > .gitignore << EOF
+node_modules/
+.next/
+dist/
+build/
+*.log
+.DS_Store
+*.node
+EOF
+
+
 # Production
 /build
 
