@@ -5,4 +5,4 @@ node_modules/
 dist/
 .DS_Store
 out/
-tsconfig.tsbuildinfo)
+tsconfig.tsbuildinfo
