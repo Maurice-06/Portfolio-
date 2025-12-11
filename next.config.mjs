@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/Portfolio-',
   output: 'export',
   typescript: {
     ignoreBuildErrors: true,
@@ -8,5 +9,8 @@ const nextConfig = {
     unoptimized: true,
   },
 }
+module.exports = nextConfig;
 
 export default nextConfig
+
+
